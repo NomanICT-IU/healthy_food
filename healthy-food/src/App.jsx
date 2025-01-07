@@ -7,7 +7,7 @@ import FoodItems from "./component/FoodItems";
 import ItemInput from "./component/ItemInput";
 
 const App = () => {
-  const [foodItems, setFoodItems] = useState(["Rice", "Bread", "Green Vegetable"]);
+  const [foodItems, setFoodItems] = useState(["Rice", "Bread", "Green Vegetable","Milk"]);
 
   let handleInputChange = () => {
     if (event.key === "Enter") {
